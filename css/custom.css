@@ -1,0 +1,156 @@
+body{}
+
+/***************header*****************/
+header{
+    background-color: #fbda00;
+    height: 100vh;
+}
+nav{
+    padding: 30px!important;
+}
+.nav-link{
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    border-bottom: 1px solid black;
+    color: black;
+}
+.inspiration-section{}
+.inspire{
+    padding-top: 50px;
+}
+h1{}
+h6{
+    font-size: 20px!important;
+    margin: 20px 0!important;
+}
+p{
+    color: #777;
+}
+
+.icons{
+
+}
+.icons ul{}
+.icons ul li{}
+.icons ul li a{
+    font-size: 45px;
+    color: black;
+    padding-right: 25px;
+}
+.icons ul li a:hover{}
+.img-section{}
+.phone{
+    padding left: 30px;
+}
+.phone img{
+    padding-left: 150px;
+}
+
+/*******************features********************/
+.features-section{
+    margin: 70px 0;
+}
+.features-heading{
+    width: 700px;
+}
+.features{
+    margin: 30px 0;
+    padding: 10px;
+    transition: 0.8s;
+}
+.features:hover{
+    margin-top: -2px;
+    box-shadow: 0 2px 20px #b3b3b3;
+}
+span{
+    display: block;
+    font-size: 40px;
+}
+h2{}
+/****************footer******************/
+footer{
+ 
+    text-align: center;
+    padding: 70px 0;
+    background: #101010;
+}
+.footer-heading{
+    width: 700px;
+}
+footer h1{
+    color: #fbda00;
+}
+.submit-box{
+    margin-top: 60px;
+}
+.form-inline{
+    display: block!important;
+}
+.form-control{
+    width: 580px !important;
+    height: 50px !important;
+}
+.btn{
+    background-color: black!important;
+    border-color: white!important;
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.btn:hover{
+    background-color: #fbda00!important;
+    color: black!important;
+}
+.social-icons{}
+.social-icons ul{}
+.social-icons ul li{
+    padding: 0 20px;
+    display: inline-block;
+}
+.social-icons ul li a{
+    width: 45px;
+    height: 45px;
+    background-color: #fcdb00;
+    line-height: 45px;
+    font-size: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    color: #101010;
+}
+.social-icons ul li a:hover{
+    border: 2px solid #fcdb00;
+    color: #fff;
+}
+.social-icons ul li a i{
+    font-size: 30px;
+}
+.footer-content{}
+footer p{
+    color: #fff;
+    margin-top: 20px;
+}
+.list-item{
+    text-align: justify;
+    margin: 80px 0;
+}
+.list-item h5{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 5px;
+    margin: 0;
+}
+.list-item ul {}
+.list-item ul li{
+    list-style: none;
+}
+.list-item ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.list-item ul li a:hover{}
