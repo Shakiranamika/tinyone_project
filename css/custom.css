@@ -4,9 +4,10 @@ body{}
 header{
     background-color: #fbda00;
     height: 100vh;
+
 }
 nav{
-    padding: 30px!important;
+    padding: 20px 0!important;
 }
 .nav-link{
     font-size: 22px;
@@ -15,8 +16,8 @@ nav{
     transition: 0.5s;
 }
 .nav-link:hover{
-    border-bottom: 1px solid black;
-    color: black;
+    
+    color: white;
 }
 .inspiration-section{}
 .inspire{
@@ -41,7 +42,9 @@ p{
     color: black;
     padding-right: 25px;
 }
-.icons ul li a:hover{}
+.icons ul li a:hover{
+ color: white;
+}
 .img-section{}
 .phone{
     padding left: 30px;
@@ -60,22 +63,26 @@ p{
 .features{
     margin: 30px 0;
     padding: 10px;
-    transition: 0.8s;
+    transition: 0.5s;
 }
 .features:hover{
-    margin-top: -2px;
-    box-shadow: 0 2px 20px #b3b3b3;
+    box-shadow: 0 2px 15px #7777779e;
+    margin-top: 2px;
 }
 span{
     display: block;
     font-size: 40px;
 }
-h2{}
+h2{
+ font-size: 1.8rem!important;
+}
 /****************footer******************/
 footer{
  
     text-align: center;
+ 
     padding: 70px 0;
+ 
     background: #101010;
 }
 .footer-heading{
@@ -85,13 +92,13 @@ footer h1{
     color: #fbda00;
 }
 .submit-box{
-    margin-top: 60px;
+ margin-top: 60px;
 }
 .form-inline{
     display: block!important;
 }
 .form-control{
-    width: 580px !important;
+    width: 500px !important;
     height: 50px !important;
 }
 .btn{
@@ -99,8 +106,8 @@ footer h1{
     border-color: white!important;
     width: 100px;
     height: 50px;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 20px!important;
+    font-weight: 500!important;
 }
 .btn:hover{
     background-color: #fbda00!important;
@@ -123,7 +130,7 @@ footer h1{
     color: #101010;
 }
 .social-icons ul li a:hover{
-    border: 2px solid #fcdb00;
+    border: 2px solid white;
     color: #fff;
 }
 .social-icons ul li a i{
@@ -139,11 +146,11 @@ footer p{
     margin: 80px 0;
 }
 .list-item h5{
+    color: white;
     font-size: 16px;
-    color: #fff;
     font-weight: 400;
-    padding-top: 5px;
     margin: 0;
+    padding-top: 5px;
 }
 .list-item ul {}
 .list-item ul li{
@@ -153,4 +160,6 @@ footer p{
     text-decoration: none;
     color: #fff;
 }
-.list-item ul li a:hover{}
+.list-item ul li a:hover{
+    color: #fbda00;
+}
